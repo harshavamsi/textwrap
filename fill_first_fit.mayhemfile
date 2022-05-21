@@ -1,0 +1,5 @@
+project: textwrap
+target: fill_first_fit
+
+cmds:
+  - cmd: /fill_first_fit
