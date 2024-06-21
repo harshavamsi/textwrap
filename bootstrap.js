@@ -438,7 +438,7 @@ __webpack_require__.e(/*! import() */ "index_js").then(__webpack_require__.bind(
 /******/ 					promises.push(installedWasmModuleData);
 /******/ 				else {
 /******/ 					var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 					var req = fetch(__webpack_require__.p + "" + {"index_js":{"../pkg/textwrap_wasm_demo_bg.wasm":"0eecb4ac7402ef599494"}}[chunkId][wasmModuleId] + ".module.wasm");
+/******/ 					var req = fetch(__webpack_require__.p + "" + {"index_js":{"../pkg/textwrap_wasm_demo_bg.wasm":"4f918db2bc88bf4d58f2"}}[chunkId][wasmModuleId] + ".module.wasm");
 /******/ 					var promise;
 /******/ 					if(importObject && typeof importObject.then === 'function' && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 						promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
